@@ -11,11 +11,11 @@ public class SaveCustomer {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Customer name below:");
 		String name = sc.nextLine();
-		System.out.println("Enter Manager address below:");
+		System.out.println("Enter Customer address below:");
 		String address = sc.nextLine();
-		System.out.println("Enter Manager status below:");
+		System.out.println("Enter Customer status below:");
 		String status = sc.nextLine();
-		System.out.println("Enter Manager Adhar number below:");
+		System.out.println("Enter Customer Adhar number below:");
 		String adhar_no = sc.nextLine();
 		
 		Customer customer = new Customer();
